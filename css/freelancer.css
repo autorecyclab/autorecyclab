@@ -42,7 +42,7 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #449a51;
+  background-color: #b5d16d;
 }
 
 hr.star-dark {
@@ -126,7 +126,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #449a51;
+  color: #b5d16d;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active,
@@ -135,7 +135,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #449a51;
+  color: #b5d16d;
 }
 
 #mainNav .navbar-toggler {
@@ -162,13 +162,13 @@ section h2 {
   }
   #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
     color: #fff;
-    background: #449a51;
+    background: #b5d16d;
   }
   #mainNav .navbar-nav>li.nav-item>a.nav-link.active:active,
   #mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus,
   #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
     color: #fff;
-    background: #449a51;
+    background: #b5d16d;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -327,7 +327,7 @@ header.masthead h2 {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #449a51;
+  color: #b5d16d;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -346,7 +346,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-  color: #449a51;
+  color: #b5d16d;
 }
 
 a:focus,
@@ -360,7 +360,7 @@ a:active {
 }
 
 .bg-primary {
-  background-color: #449a51 !important;
+  background-color: #b5d16d !important;
 }
 
 .bg-secondary {
@@ -368,7 +368,7 @@ a:active {
 }
 
 .text-primary {
-  color: #449a51 !important;
+  color: #b5d16d !important;
 }
 
 .text-secondary {
@@ -376,8 +376,8 @@ a:active {
 }
 
 .btn-primary {
-  background-color: #449a51;
-  border-color: #449a51;
+  background-color: #b5d16d;
+  border-color: #b5d16d;
 }
 
 .btn-primary:hover,
