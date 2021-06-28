@@ -460,7 +460,7 @@ header.masthead h1 span {
 }
 
 header.mastheadwithimage {
-  padding-top: 1rem;
+  padding-top: 15rem;
   padding-bottom: calc(10rem - 56px);
   background-image: url(../img/header08.jpg);
   background-position: top center;
