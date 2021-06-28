@@ -462,7 +462,7 @@ header.masthead h1 span {
 header.mastheadwithimage {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url(../img/header01.jpg);
+  background-image: url(../img/header02.jpg);
   background-position: top center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
