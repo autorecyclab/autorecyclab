@@ -1,30 +1,3 @@
-
-Skip to content
-Pull requests
-Issues
-Marketplace
-Explore
-@autorecyclab
-
-0
-0
-
-    2,481
-
-autorecyclab/autorecyclab forked from clodio/autorecyclab
-Code
-Pull requests 0
-Projects 0
-Wiki
-Security
-Insights
-Settings
-autorecyclab/css/freelancer.css
-@autorecyclab autorecyclab Update freelancer.css 200eb2a 2 minutes ago
-@davidtmiller
-@sna-laposte
-@autorecyclab
-478 lines (404 sloc) 8.05 KB
 body {
   font-family: 'Lato';
 }
@@ -38,6 +11,8 @@ h6 {
   font-weight: 700;
   font-family: 'Montserrat';
 }
+
+
 
 hr.star-light,
 hr.star-dark,
@@ -427,13 +402,13 @@ a:active {
 }
 
 header.masthead h1 span {
-  background-color: #92c42d;
+  background-color: #b5d16d;
   margin-left: 0px;
   padding: 5px;
 }
 
 .spanlab {
-  background-color: #92c42d;
+  background-color: #b5d16d;
   margin-left: 0px;
   padding: 5px;
 }
@@ -462,8 +437,8 @@ header.masthead h1 span {
 header.mastheadwithimage {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url(../img/header11.jpg);
-  background-position: top center;
+  background-image: url(../img/header2.jpg);
+  background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -474,7 +449,7 @@ header.mastheadwithimage1 {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
   background-image: url(../img/header.jpg);
-  background-position: top center;
+  background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -483,14 +458,6 @@ header.mastheadwithimage1 {
 
 .colSpace {
   padding: 21px;
-}
-
-/* Large devices (large desktops, 1200px and up) */
-
-@media (min-width: 1200px) {
-  .spacer-header {
-    margin: 100px;
-  }
 }
 
 .logo-nav {
@@ -503,17 +470,25 @@ header.mastheadwithimage1 {
   }
 }
 
-    © 2019 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Status
-    Help
+header.masttitle .title-page, header.masttitle .subtitle {
+  font-weight: 500;
+  font-family: 'Montserrat';
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+}
 
-    Contact GitHub
-    Pricing
-    API
-    Training
-    Blog
-    About
 
+@media (min-width: 992px) {
+  header.masttitle {
+    padding-top: calc(6rem + 106px);
+    padding-bottom: 6rem;
+  }
+  header.masttitle .title-page {
+    font-size: 2.75em;
+    line-height: 2rem;
+  }
+  header.masttitle .subtitle {
+    font-size: 2.75em;
+    line-height: 2rem;
+  }
+}
